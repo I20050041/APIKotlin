@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorCRD">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+
+    <!-- Título del formulario -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gestión de Categoria"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp" />
+        <EditText
+            android:id="@+id/editTextNombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nombre"
+            android:inputType="text"
+            android:layout_marginBottom="8dp"
+            android:minHeight="48dp"
+            android:padding="12dp" />
+        <EditText
+            android:id="@+id/editTextDescripcion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Descripción"
+            android:inputType="text"
+            android:layout_marginBottom="8dp"
+            android:minHeight="48dp"
+            android:padding="12dp" />
+        <Button
+            android:id="@+id/btnAddCategoria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Añadir Categoria"
+            android:layout_marginBottom="8dp"
+            android:minHeight="48dp"
+            android:padding="12dp" />
+        <Button
+            android:id="@+id/btnUpdateCategoria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Actualizar Categoria"
+            android:layout_marginBottom="8dp"
+            android:minHeight="48dp"
+            android:padding="12dp" />
+    </LinearLayout>
+</ScrollView>
+

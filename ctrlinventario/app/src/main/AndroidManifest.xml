@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Ctrlinventario"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="31">
+        <activity
+            android:name=".MostrarArticulo"
+            android:exported="false"
+            android:label="@string/title_activity_mostrar_articulo"
+            android:theme="@style/Theme.Ctrlinventario" />
+        <activity
+            android:name=".MostrarCategoria"
+            android:exported="false"
+            android:label="@string/title_activity_mostrar_categoria"
+            android:theme="@style/Theme.Ctrlinventario" />
+        <activity
+            android:name=".MostrarProveedor"
+            android:exported="false"
+            android:label="@string/title_activity_mostrar_proveedor"
+            android:theme="@style/Theme.Ctrlinventario" />
+        <activity
+            android:name=".ArticuloCRUD"
+            android:exported="false"
+            android:label="@string/title_activity_articulo_crud"
+            android:theme="@style/Theme.Ctrlinventario" />
+        <activity
+            android:name=".CategoriaCRUD"
+            android:exported="false"
+            android:label="@string/title_activity_categoria_crud"
+            android:theme="@style/Theme.Ctrlinventario" />
+        <activity
+            android:name=".ProveedorCRUD"
+            android:exported="false"
+            android:label="@string/title_activity_proveedor_crud"
+            android:theme="@style/Theme.Ctrlinventario" />
+        <activity
+            android:name=".Menu"
+            android:exported="false"
+            android:label="@string/title_activity_menu"
+            android:theme="@style/Theme.Ctrlinventario" />
+        <activity
+            android:name=".CarritoActivity"
+            android:exported="false"
+            android:label="@string/title_carrito_activity"
+            android:theme="@style/Theme.Ctrlinventario" />
+        <activity
+            android:name=".Register"
+            android:exported="false"
+            android:label="@string/title_register_activity"
+            android:theme="@style/Theme.Ctrlinventario" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:label="@string/app_name"
+            android:theme="@style/Theme.Ctrlinventario">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

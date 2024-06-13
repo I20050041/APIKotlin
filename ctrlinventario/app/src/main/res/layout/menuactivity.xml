@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/colorKK">
+
+    <Button
+        android:id="@+id/btnArticulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Artículo"
+        android:onClick="openArticuloActivity"
+        android:layout_marginTop="24dp" />
+
+    <Button
+        android:id="@+id/btnCategoria"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Categoría"
+        android:onClick="openCategoriaActivity"
+        android:layout_marginTop="24dp" />
+
+    <Button
+        android:id="@+id/btnProveedor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Proveedor"
+        android:onClick="openProveedorActivity"
+        android:layout_marginTop="24dp" />
+</LinearLayout>

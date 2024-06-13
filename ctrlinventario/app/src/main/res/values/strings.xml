@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ctrlinventario</string>
+    <string name="title_activity_principal">PrincipalActivity</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_activity_articulo_crud">ArticuloCRUD</string>
+    <string name="title_activity_mostrar_articulo">MostrarArticulo</string>
+    <string name="title_activity_categoria_crud">CategoriaCRUD</string>
+    <string name="title_activity_mostrar_categoria">MostrarCategoria</string>
+    <string name="title_activity_mostrar_proveedor">MostrarProveedor</string>
+    <string name="title_activity_proveedor_crud">ProveedorCRUD</string>
+    <string name="title_carrito_activity">CarritoActivity</string>
+    <string name="title_register_activity">Register</string>
+    <string name="content_description_image_button">Descripción de la imagen</string>
+</resources>
